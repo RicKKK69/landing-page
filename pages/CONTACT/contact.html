@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranaghat-Govt-II-ITI</title>
+
+  <link rel="stylesheet" href="contact.css">
+
+  <!-- Importing Google Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  </style>
+
+  <!-- Importing Font Awesome Icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <section class="sub-header">
+
+    <nav>
+
+      <a href="../../index.html"><img src="../../img/logo.png" alt=""></a> <!-- Logo image -->
+
+      <div class="nav-links" id="navLinks">
+
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i> <!-- Close menu button -->
+
+        <ul>
+
+          <li><a href="../../index.html">HOME</a></li> <!-- Home link -->
+          <li><a href="../ABOUT/about.html">ABOUT-US</a></li> <!-- About link -->
+          <li><a href="../COURSE/course.html">COURSE</a></li> <!-- Course link -->
+          <li><a href="../BLOG/blog.html">BLOG</a></li> <!-- Blog link -->
+          <li><a href="contact.html">CONTACT-US</a></li> <!-- Contact link -->
+
+        </ul>
+
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()"></i> <!-- Open menu button -->
+
+    </nav>
+
+    <h1>Contact-US</h1>
+
+  </section>
+
+  <section class="test">
+    <div class="test">
+
+
+      <div class="ContratkUs">
+        <form action="input.php" method="post">
+            <label id="ms" for="uname">Name = *</label> <br>
+            <input type="text" name="uname" placeholder="Enter Your Name"  required >
+            <br>
+            <label for="unumber">Mobile No. = *</label>
+            <br>
+            <input type="number" name="unumber" placeholder="Enter Mobile Number" required>
+            <br>
+            <label for="email">Email ID = </label>
+            <br>
+            <input type="email" name="uemail" placeholder="Enter Email ID">
+            <br>
+            <label for="umsg">Meassage = *</label>
+            <br>
+            <textarea name="umsg" placeholder="Type Your Query" required></textarea>
+<BR>
+            <button type="submit">SEND MEASSAGE</button>
+            <button style="background-color: RED;" type="reset">RESET</button>
+<p>* field are required</p>
+        </form>
+
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.5848794183044!2d88.61287381497145!3d23.221794384852473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8daed5ff89ea1%3A0xe8ed7abfcb3fb869!2sRanaghat%20Government%20ITI%20College!5e0!3m2!1sen!2sin!4v1686403460691!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+    
+
+    </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </section>
+
+
+
+  <!-- Footer Section -->
+  <section class="footer"> <!-- Footer section -->
+    <div class="row">
+      <div class="footer-col">
+        <img src="img/logo-white.png" alt=""> <!-- Footer logo -->
+        <p>Connect with us on social media to stay up to date with our latest news and events.</p> <!-- Footer description -->
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=100090749156384" target="_blank"><i class="fa fa-facebook"></i></a> <!-- Facebook link -->
+          <a href="#"><i class="fa fa-instagram"></i></a> <!-- Instagram link -->
+          <a href="#"><i class="fa fa-twitter"></i></a> <!-- Twitter link -->
+          <a href="#"><i class="fa fa-youtube-play"></i></a> <!-- YouTube link -->
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3> <!-- Quick links title -->
+        <ul>
+          <li><a href="../Extra-Files/privacy_Policy.html" class="popup-link">Privacy Policy</a></li> <!-- Privacy Policy link -->
+          <li><a href="../Extra-Files/terms_service.html" class="popup-link">Terms of Service</a></li> <!-- Terms of Service link -->
+          <li><a href="../Extra-Files/map.html" target="_blank">Site Map</a></li> <!-- Site Map link -->
+        </ul>
+      </div>
+
+      <div id="popup" class="popup"> <!-- Privacy and terms popup section -->
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span> <!-- Close popup button -->
+          <iframe id="popup-iframe" src=""></iframe> <!-- Popup iframe -->
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Our Address</h3> <!-- Address title -->
+        <p>6JC8+P28, high school near Panchberia<br>Panchberi Colony, West Bengal<br>India - 741501</p> <!-- Address details -->
+        <p>+91 1234567890</p> <!-- Phone number -->
+        <p>ranaghat.iti.ii@gmail.com</p> <!-- Email address -->
+      </div>
+    </div>
+
+    <!-- Copy-right part -->
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">&copy; 2023 Ranaghat ITI. All rights reserved.</p> <!-- Copyright -->
+      </div>
+    </div>
+  </section>
+
+</body>
+<script src="contact.js">
+  location.replace('/input.php')
+</script>
+
+</html>
